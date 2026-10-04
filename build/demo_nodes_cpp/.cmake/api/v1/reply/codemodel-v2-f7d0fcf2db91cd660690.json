@@ -1,0 +1,322 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b75cd23ac836cd446cbd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "demo_nodes_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "add_two_ints_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add_two_ints_client-559f75640aedd83cf8aa.json",
+					"name" : "add_two_ints_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "add_two_ints_client_async::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add_two_ints_client_async-3dbd7a82990d404171de.json",
+					"name" : "add_two_ints_client_async",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "add_two_ints_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add_two_ints_server-d040aa57e288771cb331.json",
+					"name" : "add_two_ints_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "allocator_tutorial::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-allocator_tutorial-65a253d52d02c9a1005f.json",
+					"name" : "allocator_tutorial",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "content_filtering_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-content_filtering_publisher-dbb44c766c4ab1f0883b.json",
+					"name" : "content_filtering_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "content_filtering_subscriber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-content_filtering_subscriber-53c2dff3cb5366a3f61f.json",
+					"name" : "content_filtering_subscriber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "demo_nodes_cpp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo_nodes_cpp_uninstall-cd83a0e0636535b37171.json",
+					"name" : "demo_nodes_cpp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "even_parameters_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-even_parameters_node-c2802e725f85f9c8f02c.json",
+					"name" : "even_parameters_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "list_parameters::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-list_parameters-358df382e24fc9939852.json",
+					"name" : "list_parameters",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "list_parameters_async::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-list_parameters_async-e6faef594fd1dd829182.json",
+					"name" : "list_parameters_async",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "listener::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-listener-5470080b2de5ae4b83d3.json",
+					"name" : "listener",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "listener_best_effort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-listener_best_effort-bba60b73f9301d240301.json",
+					"name" : "listener_best_effort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "listener_serialized_message::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-listener_serialized_message-9764eda73c2ca843cca5.json",
+					"name" : "listener_serialized_message",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "number_processor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-number_processor-572c41178fc7192f24e6.json",
+					"name" : "number_processor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "one_off_timer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-one_off_timer-c072e8e4a81a520399b4.json",
+					"name" : "one_off_timer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "parameter_blackboard::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-parameter_blackboard-33633aa0623480129158.json",
+					"name" : "parameter_blackboard",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "parameter_event_handler::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-parameter_event_handler-36b3c5a53a36ae9e9741.json",
+					"name" : "parameter_event_handler",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "parameter_events::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-parameter_events-d83ccc942d015b6b3e33.json",
+					"name" : "parameter_events",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "parameter_events_async::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-parameter_events_async-10788c400d071fdd9c7d.json",
+					"name" : "parameter_events_async",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "parameters_library::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-parameters_library-d65d25ed3e76d5fc9f36.json",
+					"name" : "parameters_library",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "reuse_timer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-reuse_timer-da57794f50ffeee7bd1e.json",
+					"name" : "reuse_timer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "services_library::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-services_library-e94f38a8060785258a3e.json",
+					"name" : "services_library",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "set_and_get_parameters::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-set_and_get_parameters-4c9ca57b58dd4e045900.json",
+					"name" : "set_and_get_parameters",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "set_and_get_parameters_async::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-set_and_get_parameters_async-1482e2ac33b5104e7e59.json",
+					"name" : "set_and_get_parameters_async",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "talker::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-talker-8d8b48df72b3a63ace6c.json",
+					"name" : "talker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "talker_loaned_message::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-talker_loaned_message-406c8fa5399fea224308.json",
+					"name" : "talker_loaned_message",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "talker_serialized_message::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-talker_serialized_message-c709dcee26a222205c5e.json",
+					"name" : "talker_serialized_message",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "timers_library::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-timers_library-b7db2d0e6857487a0f0b.json",
+					"name" : "timers_library",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "topics_library::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-topics_library-768c0bcd911ccc21662f.json",
+					"name" : "topics_library",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-f8126731411d92b2e704.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/marcos-valera/demo/src/demos/build/demo_nodes_cpp",
+		"source" : "/home/marcos-valera/demo/src/demos/demo_nodes_cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

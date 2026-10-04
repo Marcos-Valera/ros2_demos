@@ -43,8 +43,11 @@ public:
       [this]() -> void
       {
         msg_ = std::make_unique<std_msgs::msg::String>();
-        msg_->data = "Hello World: " + std::to_string(count_++);
-        RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", msg_->data.c_str());
+        msg_->data = std::to_string(count_);
+        size_t next_count = count_ + prev_count_;
+        prev_count_ = count_;
+        count_ = next_count;
+        RCLCPP_INFO(this->get_logger(), "Publishing: Fibonacci: '%s'", msg_->data.c_str());
         // Put the message into a queue to be processed by the middleware.
         // This call is non-blocking.
         pub_->publish(std::move(msg_));
@@ -62,6 +65,7 @@ public:
 
 private:
   size_t count_ = 1;
+  size_t prev_count_ = 0;
   std::unique_ptr<std_msgs::msg::String> msg_;
   rclcpp::Publisher<std_msgs::msg::String>::SharedPtr pub_;
   rclcpp::TimerBase::SharedPtr timer_;

@@ -1,0 +1,245 @@
+[0.076s] Invoking command in '/home/marcos-valera/demo/src/demos/build/demo_nodes_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/marcos-valera/demo/src/demos/demo_nodes_cpp -DCMAKE_INSTALL_PREFIX=/home/marcos-valera/demo/src/demos/install/demo_nodes_cpp
+[0.783s] -- The C compiler identification is GNU 11.4.0
+[1.130s] -- The CXX compiler identification is GNU 11.4.0
+[1.186s] -- Detecting C compiler ABI info
+[1.422s] -- Detecting C compiler ABI info - done
+[1.431s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.464s] -- Detecting C compile features
+[1.469s] -- Detecting C compile features - done
+[1.515s] -- Detecting CXX compiler ABI info
+[1.698s] -- Detecting CXX compiler ABI info - done
+[1.713s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.714s] -- Detecting CXX compile features
+[1.714s] -- Detecting CXX compile features - done
+[1.773s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.054s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.405s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[2.616s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.649s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.689s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.740s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.811s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.041s] -- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)
+[3.203s] -- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.214s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.562s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.620s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.679s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.721s] -- Looking for pthread.h
+[3.938s] -- Looking for pthread.h - found
+[3.939s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.139s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.139s] -- Found Threads: TRUE  
+[4.350s] -- Found rclcpp_components: 16.0.21 (/opt/ros/humble/share/rclcpp_components/cmake)
+[4.487s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.693s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.734s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.754s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.754s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.754s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.754s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.788s] -- Found PythonExtra: .so  
+[4.834s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.839s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.841s] -- Configured cppcheck include dirs: /home/marcos-valera/demo/src/demos/demo_nodes_cpp/include
+[4.841s] -- Configured cppcheck exclude dirs and/or files: 
+[4.846s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.846s] -- Configured cpplint exclude dirs and/or files: 
+[4.847s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.851s] -- Added test 'lint_cmake' to check CMake code style
+[4.853s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.856s] -- Added test 'uncrustify' to check C / C++ code style
+[4.856s] -- Configured uncrustify additional arguments: 
+[4.858s] -- Added test 'xmllint' to check XML markup files
+[4.864s] -- Configuring done
+[4.974s] -- Generating done
+[5.029s] -- Build files have been written to: /home/marcos-valera/demo/src/demos/build/demo_nodes_cpp
+[5.054s] Invoked command in '/home/marcos-valera/demo/src/demos/build/demo_nodes_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/marcos-valera/demo/src/demos/demo_nodes_cpp -DCMAKE_INSTALL_PREFIX=/home/marcos-valera/demo/src/demos/install/demo_nodes_cpp
+[5.055s] Invoking command in '/home/marcos-valera/demo/src/demos/build/demo_nodes_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/marcos-valera/demo/src/demos/build/demo_nodes_cpp -- -j6 -l6
+[5.174s] [  1%] [32mBuilding CXX object CMakeFiles/allocator_tutorial.dir/src/topics/allocator_tutorial.cpp.o[0m
+[5.175s] [  2%] [32mBuilding CXX object CMakeFiles/parameter_events.dir/src/parameters/parameter_events.cpp.o[0m
+[5.194s] [  5%] [32mBuilding CXX object CMakeFiles/list_parameters_async.dir/src/parameters/list_parameters_async.cpp.o[0m
+[5.194s] [  5%] [32mBuilding CXX object CMakeFiles/add_two_ints_client.dir/src/services/add_two_ints_client.cpp.o[0m
+[5.205s] [  7%] [32mBuilding CXX object CMakeFiles/set_and_get_parameters_async.dir/src/parameters/set_and_get_parameters_async.cpp.o[0m
+[5.206s] [  8%] [32mBuilding CXX object CMakeFiles/parameter_event_handler.dir/src/parameters/parameter_event_handler.cpp.o[0m
+[14.790s] [  9%] [32m[1mLinking CXX executable add_two_ints_client[0m
+[15.481s] [  9%] Built target add_two_ints_client
+[15.560s] [ 11%] [32m[1mLinking CXX executable set_and_get_parameters_async[0m
+[15.580s] [ 12%] [32mBuilding CXX object CMakeFiles/timers_library.dir/src/timers/one_off_timer.cpp.o[0m
+[16.072s] [ 12%] Built target set_and_get_parameters_async
+[16.175s] [ 14%] [32mBuilding CXX object CMakeFiles/services_library.dir/src/services/add_two_ints_server.cpp.o[0m
+[17.163s] [ 15%] [32m[1mLinking CXX executable list_parameters_async[0m
+[17.424s] [ 15%] Built target list_parameters_async
+[19.642s] [ 16%] [32mBuilding CXX object CMakeFiles/parameters_library.dir/src/parameters/list_parameters.cpp.o[0m
+[20.532s] [ 18%] [32mBuilding CXX object CMakeFiles/timers_library.dir/src/timers/reuse_timer.cpp.o[0m
+[25.143s] [ 19%] [32mBuilding CXX object CMakeFiles/services_library.dir/src/services/add_two_ints_client.cpp.o[0m
+[25.244s] [ 21%] [32mBuilding CXX object CMakeFiles/parameters_library.dir/src/parameters/parameter_blackboard.cpp.o[0m
+[26.053s] [ 22%] [32m[1mLinking CXX shared library libtimers_library.so[0m
+[26.056s] [ 23%] [32m[1mLinking CXX executable parameter_events[0m
+[26.134s] [ 25%] [32m[1mLinking CXX executable allocator_tutorial[0m
+[26.317s] [ 25%] Built target timers_library
+[26.562s] [ 26%] [32mBuilding CXX object CMakeFiles/parameters_library.dir/src/parameters/set_and_get_parameters.cpp.o[0m
+[26.579s] [ 26%] Built target parameter_events
+[26.698s] [ 28%] [32m[1mLinking CXX executable parameter_event_handler[0m
+[26.711s] [ 29%] [32mBuilding CXX object CMakeFiles/topics_library.dir/src/topics/content_filtering_publisher.cpp.o[0m
+[27.004s] [ 29%] Built target allocator_tutorial
+[27.033s] [ 30%] [32mBuilding CXX object CMakeFiles/one_off_timer.dir/rclcpp_components/node_main_one_off_timer.cpp.o[0m
+[27.268s] [ 30%] Built target parameter_event_handler
+[27.355s] [ 32%] [32mBuilding CXX object CMakeFiles/parameters_library.dir/src/parameters/parameter_events_async.cpp.o[0m
+[30.277s] [ 33%] [32mBuilding CXX object CMakeFiles/topics_library.dir/src/topics/content_filtering_subscriber.cpp.o[0m
+[31.419s] [ 35%] [32mBuilding CXX object CMakeFiles/services_library.dir/src/services/add_two_ints_client_async.cpp.o[0m
+[31.900s] [ 36%] [32mBuilding CXX object CMakeFiles/parameters_library.dir/src/parameters/even_parameters_node.cpp.o[0m
+[32.881s] [ 38%] [32m[1mLinking CXX executable one_off_timer[0m
+[33.273s] [ 38%] Built target one_off_timer
+[33.471s] [ 39%] [32mBuilding CXX object CMakeFiles/reuse_timer.dir/rclcpp_components/node_main_reuse_timer.cpp.o[0m
+[36.886s] [ 40%] [32mBuilding CXX object CMakeFiles/topics_library.dir/src/topics/talker.cpp.o[0m
+[38.388s] [ 42%] [32mBuilding CXX object CMakeFiles/add_two_ints_server.dir/rclcpp_components/node_main_add_two_ints_server.cpp.o[0m
+[38.429s] [ 43%] [32m[1mLinking CXX shared library libservices_library.so[0m
+[39.898s] [ 43%] Built target services_library
+[40.520s] [ 45%] [32mBuilding CXX object CMakeFiles/add_two_ints_client_async.dir/rclcpp_components/node_main_add_two_ints_client_async.cpp.o[0m
+[42.111s] [ 46%] [32m[1mLinking CXX executable reuse_timer[0m
+[42.679s] [ 46%] Built target reuse_timer
+[42.831s] [ 47%] [32mBuilding CXX object CMakeFiles/list_parameters.dir/rclcpp_components/node_main_list_parameters.cpp.o[0m
+[45.197s] [ 49%] [32m[1mLinking CXX executable add_two_ints_server[0m
+[45.504s] [ 49%] Built target add_two_ints_server
+[45.540s] [ 50%] [32m[1mLinking CXX shared library libparameters_library.so[0m
+[45.564s] [ 52%] [32mBuilding CXX object CMakeFiles/parameter_blackboard.dir/rclcpp_components/node_main_parameter_blackboard.cpp.o[0m
+[46.146s] [ 52%] Built target parameters_library
+[46.152s] [ 53%] [32mBuilding CXX object CMakeFiles/topics_library.dir/src/topics/talker_loaned_message.cpp.o[0m
+[46.178s] [ 54%] [32mBuilding CXX object CMakeFiles/set_and_get_parameters.dir/rclcpp_components/node_main_set_and_get_parameters.cpp.o[0m
+[46.507s] [ 56%] [32m[1mLinking CXX executable add_two_ints_client_async[0m
+[46.661s] [ 56%] Built target add_two_ints_client_async
+[46.702s] [ 57%] [32mBuilding CXX object CMakeFiles/parameter_events_async.dir/rclcpp_components/node_main_parameter_events_async.cpp.o[0m
+[48.542s] [ 59%] [32m[1mLinking CXX executable list_parameters[0m
+[49.108s] [ 59%] Built target list_parameters
+[49.235s] [ 60%] [32mBuilding CXX object CMakeFiles/even_parameters_node.dir/rclcpp_components/node_main_even_parameters_node.cpp.o[0m
+[49.800s] [ 61%] [32mBuilding CXX object CMakeFiles/content_filtering_publisher.dir/rclcpp_components/node_main_content_filtering_publisher.cpp.o[0m
+[51.569s] [ 63%] [32m[1mLinking CXX executable parameter_blackboard[0m
+[51.944s] [ 63%] Built target parameter_blackboard
+[51.992s] [ 64%] [32mBuilding CXX object CMakeFiles/content_filtering_subscriber.dir/rclcpp_components/node_main_content_filtering_subscriber.cpp.o[0m
+[52.408s] [ 66%] [32m[1mLinking CXX executable set_and_get_parameters[0m
+[52.817s] [ 66%] Built target set_and_get_parameters
+[54.290s] [ 67%] [32mBuilding CXX object CMakeFiles/talker.dir/rclcpp_components/node_main_talker.cpp.o[0m
+[55.113s] [ 69%] [32m[1mLinking CXX executable parameter_events_async[0m
+[55.224s] [ 70%] [32m[1mLinking CXX executable even_parameters_node[0m
+[55.364s] [ 70%] Built target parameter_events_async
+[55.412s] [ 71%] [32mBuilding CXX object CMakeFiles/topics_library.dir/src/topics/talker_serialized_message.cpp.o[0m
+[55.667s] [ 71%] Built target even_parameters_node
+[55.867s] [ 73%] [32mBuilding CXX object CMakeFiles/talker_loaned_message.dir/rclcpp_components/node_main_talker_loaned_message.cpp.o[0m
+[56.056s] [ 74%] [32mBuilding CXX object CMakeFiles/topics_library.dir/src/topics/number_processor.cpp.o[0m
+[57.824s] [ 76%] [32m[1mLinking CXX executable content_filtering_subscriber[0m
+[58.281s] [ 77%] [32m[1mLinking CXX executable content_filtering_publisher[0m
+[58.353s] [ 77%] Built target content_filtering_subscriber
+[58.365s] [ 78%] [32mBuilding CXX object CMakeFiles/topics_library.dir/src/topics/listener.cpp.o[0m
+[58.459s] [ 78%] Built target content_filtering_publisher
+[58.474s] [ 80%] [32mBuilding CXX object CMakeFiles/topics_library.dir/src/topics/listener_serialized_message.cpp.o[0m
+[60.200s] [ 81%] [32m[1mLinking CXX executable talker[0m
+[60.829s] [ 83%] [32m[1mLinking CXX executable talker_loaned_message[0m
+[61.088s] [ 83%] Built target talker
+[61.122s] [ 84%] [32mBuilding CXX object CMakeFiles/topics_library.dir/src/topics/listener_best_effort.cpp.o[0m
+[61.144s] [ 84%] Built target talker_loaned_message
+[62.574s] [ 85%] [32mBuilding CXX object CMakeFiles/talker_serialized_message.dir/rclcpp_components/node_main_talker_serialized_message.cpp.o[0m
+[62.768s] [ 87%] [32mBuilding CXX object CMakeFiles/number_processor.dir/rclcpp_components/node_main_number_processor.cpp.o[0m
+[65.945s] [ 88%] [32m[1mLinking CXX executable talker_serialized_message[0m
+[67.842s] [ 88%] Built target talker_serialized_message
+[68.046s] [ 90%] [32mBuilding CXX object CMakeFiles/listener.dir/rclcpp_components/node_main_listener.cpp.o[0m
+[68.608s] [ 91%] [32m[1mLinking CXX executable number_processor[0m
+[68.911s] [ 91%] Built target number_processor
+[69.007s] [ 92%] [32mBuilding CXX object CMakeFiles/listener_serialized_message.dir/rclcpp_components/node_main_listener_serialized_message.cpp.o[0m
+[72.295s] [ 94%] [32mBuilding CXX object CMakeFiles/listener_best_effort.dir/rclcpp_components/node_main_listener_best_effort.cpp.o[0m
+[74.212s] [ 95%] [32m[1mLinking CXX executable listener[0m
+[74.392s] [ 97%] [32m[1mLinking CXX executable listener_serialized_message[0m
+[74.453s] [ 97%] Built target listener
+[74.602s] [ 97%] Built target listener_serialized_message
+[74.707s] [ 98%] [32m[1mLinking CXX shared library libtopics_library.so[0m
+[76.426s] [ 98%] Built target topics_library
+[76.496s] [100%] [32m[1mLinking CXX executable listener_best_effort[0m
+[76.650s] [100%] Built target listener_best_effort
+[76.668s] Invoked command in '/home/marcos-valera/demo/src/demos/build/demo_nodes_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/marcos-valera/demo/src/demos/build/demo_nodes_cpp -- -j6 -l6
+[76.690s] Invoking command in '/home/marcos-valera/demo/src/demos/build/demo_nodes_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/marcos-valera/demo/src/demos/build/demo_nodes_cpp
+[76.701s] -- Install configuration: ""
+[76.702s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/demo_nodes_cpp/allocator_tutorial
+[76.706s] -- Set runtime path of "/home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/demo_nodes_cpp/allocator_tutorial" to ""
+[76.706s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/demo_nodes_cpp/add_two_ints_client
+[76.707s] -- Set runtime path of "/home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/demo_nodes_cpp/add_two_ints_client" to ""
+[76.707s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/demo_nodes_cpp/list_parameters_async
+[76.708s] -- Set runtime path of "/home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/demo_nodes_cpp/list_parameters_async" to ""
+[76.708s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/demo_nodes_cpp/parameter_events
+[76.712s] -- Set runtime path of "/home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/demo_nodes_cpp/parameter_events" to ""
+[76.713s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/demo_nodes_cpp/parameter_event_handler
+[76.718s] -- Set runtime path of "/home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/demo_nodes_cpp/parameter_event_handler" to ""
+[76.718s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/demo_nodes_cpp/set_and_get_parameters_async
+[76.720s] -- Set runtime path of "/home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/demo_nodes_cpp/set_and_get_parameters_async" to ""
+[76.721s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/demo_nodes_cpp/one_off_timer
+[76.723s] -- Set runtime path of "/home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/demo_nodes_cpp/one_off_timer" to ""
+[76.724s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/demo_nodes_cpp/reuse_timer
+[76.726s] -- Set runtime path of "/home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/demo_nodes_cpp/reuse_timer" to ""
+[76.727s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/demo_nodes_cpp/add_two_ints_server
+[76.727s] -- Set runtime path of "/home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/demo_nodes_cpp/add_two_ints_server" to ""
+[76.727s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/demo_nodes_cpp/add_two_ints_client_async
+[76.727s] -- Set runtime path of "/home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/demo_nodes_cpp/add_two_ints_client_async" to ""
+[76.727s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/demo_nodes_cpp/list_parameters
+[76.727s] -- Set runtime path of "/home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/demo_nodes_cpp/list_parameters" to ""
+[76.727s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/demo_nodes_cpp/parameter_blackboard
+[76.727s] -- Set runtime path of "/home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/demo_nodes_cpp/parameter_blackboard" to ""
+[76.727s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/demo_nodes_cpp/set_and_get_parameters
+[76.727s] -- Set runtime path of "/home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/demo_nodes_cpp/set_and_get_parameters" to ""
+[76.727s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/demo_nodes_cpp/parameter_events_async
+[76.729s] -- Set runtime path of "/home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/demo_nodes_cpp/parameter_events_async" to ""
+[76.729s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/demo_nodes_cpp/even_parameters_node
+[76.729s] -- Set runtime path of "/home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/demo_nodes_cpp/even_parameters_node" to ""
+[76.729s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/demo_nodes_cpp/content_filtering_publisher
+[76.729s] -- Set runtime path of "/home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/demo_nodes_cpp/content_filtering_publisher" to ""
+[76.729s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/demo_nodes_cpp/content_filtering_subscriber
+[76.730s] -- Set runtime path of "/home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/demo_nodes_cpp/content_filtering_subscriber" to ""
+[76.730s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/demo_nodes_cpp/talker
+[76.733s] -- Set runtime path of "/home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/demo_nodes_cpp/talker" to ""
+[76.733s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/demo_nodes_cpp/talker_loaned_message
+[76.733s] -- Set runtime path of "/home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/demo_nodes_cpp/talker_loaned_message" to ""
+[76.733s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/demo_nodes_cpp/talker_serialized_message
+[76.733s] -- Set runtime path of "/home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/demo_nodes_cpp/talker_serialized_message" to ""
+[76.733s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/demo_nodes_cpp/number_processor
+[76.733s] -- Set runtime path of "/home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/demo_nodes_cpp/number_processor" to ""
+[76.733s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/demo_nodes_cpp/listener
+[76.733s] -- Set runtime path of "/home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/demo_nodes_cpp/listener" to ""
+[76.733s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/demo_nodes_cpp/listener_serialized_message
+[76.733s] -- Set runtime path of "/home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/demo_nodes_cpp/listener_serialized_message" to ""
+[76.733s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/demo_nodes_cpp/listener_best_effort
+[76.734s] -- Set runtime path of "/home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/demo_nodes_cpp/listener_best_effort" to ""
+[76.734s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/libtimers_library.so
+[76.735s] -- Set runtime path of "/home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/libtimers_library.so" to ""
+[76.735s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/libservices_library.so
+[76.739s] -- Set runtime path of "/home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/libservices_library.so" to ""
+[76.739s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/libparameters_library.so
+[76.746s] -- Set runtime path of "/home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/libparameters_library.so" to ""
+[76.746s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/libtopics_library.so
+[76.756s] -- Set runtime path of "/home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/lib/libtopics_library.so" to ""
+[76.757s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/share/demo_nodes_cpp//launch
+[76.757s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/share/demo_nodes_cpp//launch/topics
+[76.758s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/share/demo_nodes_cpp//launch/topics/talker_listener.launch.py
+[76.758s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/share/demo_nodes_cpp//launch/topics/talker_listener_best_effort.launch.xml
+[76.758s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/share/demo_nodes_cpp//launch/topics/launch_all.py
+[76.765s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/share/demo_nodes_cpp//launch/topics/talker_listener_best_effort.launch.py
+[76.765s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/share/demo_nodes_cpp//launch/topics/talker_listener.launch.xml
+[76.765s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/share/demo_nodes_cpp//launch/services
+[76.766s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/share/demo_nodes_cpp//launch/services/add_two_ints.launch.xml
+[76.767s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/share/demo_nodes_cpp//launch/services/add_two_ints.launch.py
+[76.767s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/share/demo_nodes_cpp//launch/services/add_two_ints_async.launch.py
+[76.767s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/share/demo_nodes_cpp//launch/services/add_two_ints_async.launch.xml
+[76.767s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/share/ament_index/resource_index/package_run_dependencies/demo_nodes_cpp
+[76.767s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/share/ament_index/resource_index/parent_prefix_path/demo_nodes_cpp
+[76.767s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/share/demo_nodes_cpp/environment/ament_prefix_path.sh
+[76.767s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/share/demo_nodes_cpp/environment/ament_prefix_path.dsv
+[76.767s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/share/demo_nodes_cpp/environment/path.sh
+[76.768s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/share/demo_nodes_cpp/environment/path.dsv
+[76.768s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/share/demo_nodes_cpp/local_setup.bash
+[76.768s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/share/demo_nodes_cpp/local_setup.sh
+[76.768s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/share/demo_nodes_cpp/local_setup.zsh
+[76.768s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/share/demo_nodes_cpp/local_setup.dsv
+[76.768s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/share/demo_nodes_cpp/package.dsv
+[76.768s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/share/ament_index/resource_index/packages/demo_nodes_cpp
+[76.769s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/share/ament_index/resource_index/rclcpp_components/demo_nodes_cpp
+[76.769s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/share/demo_nodes_cpp/cmake/demo_nodes_cppConfig.cmake
+[76.770s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/share/demo_nodes_cpp/cmake/demo_nodes_cppConfig-version.cmake
+[76.770s] -- Installing: /home/marcos-valera/demo/src/demos/install/demo_nodes_cpp/share/demo_nodes_cpp/package.xml
+[76.774s] Invoked command in '/home/marcos-valera/demo/src/demos/build/demo_nodes_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/marcos-valera/demo/src/demos/build/demo_nodes_cpp
