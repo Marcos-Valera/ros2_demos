@@ -14,5 +14,6 @@ def generate_launch_description():
         launch_ros.actions.Node(
             package='demo_nodes_cpp',
             executable='listener',
-            output='screen'),
+            output='screen',
+            remappings=[('chatter', '/processed_data')]),
     ])
